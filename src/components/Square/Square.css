@@ -1,0 +1,21 @@
+.Board {
+    &__square {
+        width: 12.5%;
+        height: 12.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        &--highlight {
+            background-color: #ffe69a !important;
+        }
+    
+        &--light {
+            background-color: white;
+        }
+    
+        &--dark {
+            background-color: black;
+        }
+    }
+}

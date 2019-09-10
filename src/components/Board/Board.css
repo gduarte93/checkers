@@ -1,0 +1,17 @@
+.Board {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px solid black;
+
+    @media screen and (min-width: 320px) {
+        width: 320px;
+        height: 320px;
+    }
+    
+    @media screen and (min-width: 500px) {
+        width: 500px;
+        height: 500px;
+    }
+}
