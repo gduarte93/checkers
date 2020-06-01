@@ -1,3 +1,5 @@
+Check it out on https://gduarte93.github.io/checkers/
+
 ## Checkers
 
 Run locally
